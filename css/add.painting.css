@@ -1,0 +1,95 @@
+.add-paintings {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.add-paintings  div {
+    margin-right: 25px;
+}
+ select:focus,
+ input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.add-paintings select {
+    color:#022855;
+    font-size: 16px;
+    font-family: "Lato-Bold";
+    width: 150px;
+    padding: 0 2px;
+}
+.size-images {
+    color: #022855;
+    font-size: 18px;
+    font-family: "Lato-Bold";
+}
+.size-input select,
+.size-input input {
+    padding: 0 5px;
+    width: 300px;
+    color:#022855;
+    font-size: 16px;
+    font-family: "Lato-Bold";
+    margin-top: 10px;
+    height: calc(2.25rem + 2px);
+}
+.size-input label {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.painting-add  {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.painting-add img {
+    width: 50px;
+}
+.add-picture {
+    margin-top: 30px;
+    color: #000;
+    font-size: 18px;
+    font-family: "Lato-Regular";
+}
+.add-painting-btn {
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0px 11px 24px 0 rgba(0, 0, 0, 0.1);
+    font-family: "Lato-Bold";
+    font-size: 16px;
+    height: 30px;
+    margin-right: 15px;
+    color: #022855 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 15px;
+    background-color: #fedc51;
+    text-decoration: none;
+}
+.add-painting-btn:hover {
+    cursor: pointer;
+    background-color: #ecd574;
+}
+@media screen and (max-width:480px) {
+    .add-paintings div {
+        margin-right: 0;
+        width: 100%;
+    }
+    .add-paintings {
+        flex-direction: column;
+    }
+    .add-paintings select {
+        width: 100%;
+    }
+    .size-input select,
+    .size-input input,
+    .add-painting-btn {
+        width: 100%;
+    }
+    .dashboard-right-menu h1 {
+        font-size: 20px;
+    }
+}

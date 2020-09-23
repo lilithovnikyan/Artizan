@@ -1,0 +1,416 @@
+.category_Page {
+  width:  100%;
+  margin: 80px 0 130px 0;
+  font-family: "Lato-Regular";
+}
+.category_size{
+  width: 1477px;
+  margin:  0 auto;
+}
+.category_Page_Title{
+  font-size: 30px;
+ letter-spacing: 2.4px;
+ color: #022855;
+ font-family: "MOD20" !important;
+ text-align: center;
+}
+.category_Page_text{
+  font-size: 18px;
+  letter-spacing: 1.44px;
+  color: #000000;
+  margin: 50px 0 40px 0;
+}
+.filterBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.filterBlockBox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.filterBlockBox2 {
+flex-direction: row;
+}
+.filterBlockBox p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #022855;
+}
+.filterBlockBox select{
+  width: 282px;
+  height: 59px;
+  border-radius: 10px;
+  box-shadow: 0px 11px 24px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 16.5px;
+  color: #949292;
+}
+.ui-state-default:focus,
+.ui-widget-content .ui-state-default:focus {
+  outline: 0;
+}
+.OrientationDiv{
+  width: 20px;
+height: 28px;
+background-color: #022855;
+margin-left: 9px
+}
+.OrientationDiv2{
+  width: 28px;
+height: 20px;
+background-color: #022855;
+margin-left: 9px
+}
+.sortBlock {
+  padding: 35px 0;
+  border-bottom: 1px solid #d7d7d7;
+  border-top:  1px solid #d7d7d7;
+  margin: 60px 0 35px 0
+}
+.colorsBlock {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  border-radius: 50%;
+  width: 25px;
+  border: 1px solid silver;
+}
+.container-checkbox:hover input ~ .checkmark {
+  cursor: pointer;
+}
+.container-checkbox input:checked ~ .checkmark {
+  opacity: 0.5;
+}
+.container-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 8px;
+  top: 5px;
+  width: 7px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkbox-color-1 .checkmark {
+  background: white;
+}
+.checkbox-color-2 .checkmark {
+  background: gray;
+}
+.checkbox-color-3 .checkmark {
+  background: black;
+}
+.checkbox-color-4 .checkmark {
+  background: #5f3401;
+}
+.checkbox-color-5 .checkmark {
+  background: #ff7b00;
+}
+.checkbox-color-6 .checkmark {
+  background: #fff15f;
+}
+.checkbox-color-7 .checkmark {
+  background: #393;
+}
+.checkbox-color-8 .checkmark {
+  background: #30c;
+}
+.checkbox-color-9 .checkmark {
+  background: #5c007b;
+}
+.checkbox-color-10 .checkmark {
+  background: #f29fc5;
+}
+.checkbox-color-11 .checkmark {
+  background: #c00;
+}
+.imagesBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.imageBox {
+ margin: 24px 7px
+}
+.imageBox img{
+  width: 339px;
+ height: 371px;
+ object-fit: cover;
+}
+.imageBox p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 25px
+}
+.SizeInfo{
+  font-size: 18px;
+font-weight: bold;
+color: #022855;
+  margin-top: 19px;
+margin-right: 20px
+}
+.colorBox{
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red
+}
+.sortBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.sortBox{
+  width: 250PX;
+  margin-bottom: 20px
+}
+.sortBoxTitle{
+  font-size: 18px;
+font-weight: bold;
+color: #022855;
+margin-right: 10px
+}
+/* range */
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+    background-color: #1167D1;
+    border-radius: 50%;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background-color: #1167D1;
+}
+.value {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  margin: 0 0 0 -20px;
+  width: 40px;
+  text-align: center;
+  display: block;
+
+  /* optional */
+
+  font-weight: normal;
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.price-range-both.value {
+  width: 100px;
+  margin: 0 0 0 -50px;
+  top: 26px;
+}
+
+.price-range-both {
+  display: none;
+}
+
+.value i {
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1500px) {
+  .category_Page {
+    margin: 50px 0 50px 0;
+  }
+  .category_size{
+    width: 98%;
+  }
+  .category_Page_Title{
+    font-size: 24px;
+  }
+  .category_Page_text{
+    font-size: 16px;
+    margin: 30px 0 20px 0;
+  }
+  .filterBlockBox p{
+    font-size: 16px;
+  }
+  .filterBlockBox select{
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  .sortBlock {
+    padding: 20px 0;
+    margin: 40px 0 20px 0
+  }
+  .colorsBlock {
+    margin-bottom: 50px;
+  }
+
+  .imageBox {
+   margin: 15px 5px
+  }
+  .imageBox img{
+    width: 200px;
+   height: 200px;
+  }
+  .imageBox p{
+    font-size: 16px;
+    margin-top: 15px
+  }
+  .SizeInfo{
+    font-size: 16px;
+  margin-right: 10px
+  }
+  .colorBox{
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .sortBoxTitle{
+    margin-bottom: 15px
+  }
+  /* range */
+
+  .sortBoxTitle{
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+
+}
+@media screen and (max-width : 1050px) {
+  .category_Page {
+    margin: 30px 0 30px 0;
+  }
+
+  .category_Page_Title{
+    font-size: 22px;
+  }
+  .filterBlock, .filterBlockBox{
+    flex-direction:  column;
+    align-items: center;
+  }
+  .category_Page_text{
+    font-size: 15px;
+    margin: 20px 0;
+  }
+  .filterBlockBox p{
+    font-size: 15px;
+    margin: 10px 0
+  }
+  .filterBlockBox2 {
+    flex-direction: row !important;
+  }
+  .filterBlockBox select{
+    width: 200px;
+    height: 40px;
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  .sortBlock {
+    padding: 10px 0;
+    margin: 30px 0 20px 0;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .colorsBlock {
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .imageBox {
+   margin: 15px 5px
+  }
+  .imageBox img{
+    width: 200px;
+   height: 200px;
+  }
+  .imageBox p{
+    font-size: 16px;
+    margin-top: 15px
+  }
+  .SizeInfo{
+    font-size: 16px;
+  margin-right: 10px
+  }
+  .colorBox{
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .sortBoxTitle{
+    margin-bottom: 15px
+  }
+  /* range */
+
+  .sortBoxTitle{
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}

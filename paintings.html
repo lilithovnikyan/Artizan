@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Artizan</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/font-awesome.css">
+    <link rel="stylesheet" href="libs/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/category.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="header-content">
+            <a href="index.html">
+                <img class="white-logo" src="img/logo-black.png" alt="">
+            </a>
+            <div class="header_right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="paintings.html">Paintings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="add-painting.html">Add Painting</a></li>
+                        <li class="nav-item"><a class="nav-link" href="painter-page.html">Painter Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pictures-page.html">Pictures Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#loginModal">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="category_Page">
+        <div class="category_size">
+            <p class="category_Page_Title">Lorem ipsum dolor sit </p>
+            <p class="category_Page_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aliquam cursus consectetur nibh quis venenatis. Pellentesque at massa velit. Maecenas
+                ac eros erat. Donec ac ex vitae ante varius venenatis. Quisque porttitor vehicula
+                libero a volutpat. Etiam a sapien iaculis, tempor nunc sed, viverra tellus.
+                In sagittis massa eu est aliquet pretium. Mauris a ante sed nulla congue molestie.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin efficitur semper.
+                Fusce tempor ex eu tortor dapibus, at placerat nulla viverra. Curabitur dignissim
+                gravida eros vel ullamcorper. Ut dignissim eget massa vel iaculis.</p>
+            <div class="filterBlock">
+                <div class="filterBlockBox">
+                    <p>STYLE</p>
+                    <select class="" name="">
+                        <option>Abstract</option>
+                        <option>ArtDeco</option>
+                        <option>Cartoon</option>
+                        <option>Figurative</option>
+                        <option>Fine Art</option>
+                    </select>
+                </div>
+                <div class="filterBlockBox">
+                    <p>SUBJECT</p>
+                    <select class="" name="">
+                        <option>Botanical</option>
+                        <option>Landscapes</option>
+                        <option>London Cityscapes</option>
+                        <option>Portraits</option>
+                        <option>Still Life</option>
+                    </select>
+                </div>
+                <div class="filterBlockBox">
+                    <p>MEDIUM</p>
+                    <select class="" name="">
+                        <option>Oil</option>
+                        <option>Acrylic</option>
+                        <option>Mixed Media</option>
+                        <option>Watercolour</option>
+                        <option>Gouache</option>
+                    </select>
+                </div>
+                <div class="filterBlockBox">
+                    <p>FEATURED ARTISTS</p>
+                    <select class="" name="">
+                        <option>Niki Here</option>
+                        <option>Paul Bennett</option>
+                        <option>Magdalena Morey</option>
+                        <option>Nick Malone</option>
+                        <option>Kataro Machiyama</option>
+                    </select>
+                </div>
+                <div class="filterBlockBox filterBlockBox2">
+                    <p>Orientation</p>
+                    <div class="OrientationDiv"> </div>
+                    <div class="OrientationDiv2"> </div>
+                </div>
+            </div>
+            <div class="sortBlock">
+                <div class="sortBox">
+                    <p>
+                        <label for="amount" class="sortBoxTitle">Price</label>
+                        <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                    </p>
+                    <div id="slider"></div>
+                </div>
+                <div class="sortBox">
+                       <form>
+                        <label for="minbeds" class="sortBoxTitle">Size</label>
+                        <select name="minbeds" id="minbeds">
+                            <option>s</option>
+                            <option>m</option>
+                            <option>l</option>
+                            <option>xl</option>
+                            <option>xxl</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="sortBox">
+                    <form>
+                        <label for="minbeds2" class="sortBoxTitle">Sort</label>
+                        <select name="minbeds2" id="minbeds2">
+                            <option>s</option>
+                            <option>m</option>
+                            <option>l</option>
+                            <option>xl</option>
+                            <option>xxl</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="colorsBlock">
+                <p class="SizeInfo">Color</p>
+                <label class="container-checkbox checkbox-color-1">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-2">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-3">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-4">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-5">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-6">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-7">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-8">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-9">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-10">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox checkbox-color-11">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="imagesBlock">
+                <div class="imageBox">
+                    <img src="img/img1.png" alt="">
+                    <p>New In</p>
+                </div>
+                <div class="imageBox">
+                    <img src="img/img1.png" alt="">
+                    <p>New In</p>
+                </div>
+                <div class="imageBox">
+                    <img src="img/img1.png" alt="">
+                    <p>New In</p>
+                </div>
+                <div class="imageBox">
+                    <img src="img/img1.png" alt="">
+                    <p>New In</p>
+                </div>
+                <div class="imageBox">
+                    <img src="img/img1.png" alt="">
+                    <p>New In</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main_size">
+            <div class="footer_flex">
+                <div class="footer_flex_box_1">
+                    <div class="footer_flex_box_1_top">
+                        <div class="">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="footer_flex_box_1_top_soc">
+                            <img src="img/tw.png" alt="">
+                            <img src="img/fb.png" alt="">
+                            <img src="img/link.png" alt="">
+                        </div>
+                    </div>
+                    <p class="footer_flex_box_1_text">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquam cursus consectetur nibh quis venenatis.
+                        consectetur adipiscing elit. Aliquam cursus consectetur nibh quis venenatis..</p>
+                </div>
+                <div class="footer_flex_box_2">
+                    <p class="footer_flex_box_2_title">Lorem Ipsum</p>
+                    <p class="footer_flex_box_2_text">Recognised Works</p>
+                    <p class="footer_flex_box_2_text">Underground Artworks</p>
+                    <p class="footer_flex_box_2_text">Blog</p>
+                    <p class="footer_flex_box_2_text">Privacy Policy</p>
+                </div>
+                <div class="footer_flex_box_2">
+                    <p class="footer_flex_box_2_title"> Contact Us</p>
+                    <p class="footer_flex_box_2_text"><i class="fas fa-map-marker-alt"></i> Address Lorem  </p>
+                    <p class="footer_flex_box_2_text"> <i class="fas fa-phone"></i> (000) 123 456 789 </p>
+                    <p class="footer_flex_box_2_text"> <i class="fas fa-envelope"></i> example.@gmail.com</p>
+                </div>
+            </div>
+            <div class="page_bottom">
+                <p>Copy right 2019</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade login-modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modaleTitle">LOGIN</p>
+                    <input type="email" name="" value="" class="modalInput" placeholder="E-mail">
+                    <input type="password" name="" value="" class="modalInput" placeholder="Password">
+                    <div class="chechboxBox">
+                        <input type="checkbox" name="" value="">
+                        <p>Remember me?</p>
+                    </div>
+                    <button type="button" name="button" class="loginBtn">Login</button>
+                    <a href="#" class="forgetPassword">Forgot Password?</a>
+                    <a href="#" class="dontHaveAnAccount">Don’t have an account yet?</a>
+                    <button type="button" name="button" class="loginBtn signBtn">Sign Up</button>
+                    <a href="#" class="dontHaveAnAccount">Privacy Policy</a>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+<script src="libs/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="libs/js/bootstrap.min.js"></script>
+</body>
+</html>

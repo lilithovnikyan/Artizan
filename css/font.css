@@ -1,0 +1,44 @@
+@font-face {
+    src: url("../fonts/FRABK.TTF");
+    font-family: "FRABK";
+}
+@font-face {
+    src: url("../fonts/MOD20.TTF");
+    font-family: "MOD20";
+}
+@font-face {
+    src: url("../fonts/Lato-Bold.ttf");
+    font-family: "Lato-Bold";
+}
+@font-face {
+    src: url("../fonts/Lato-Black.ttf");
+    font-family: "Lato-Black";
+}
+@font-face {
+    src: url("../fonts/Lato-Light.ttf");
+    font-family: "Lato-Light";
+}
+@font-face {
+    src: url("../fonts/Lato-Regular.ttf");
+    font-family: "Lato-Regular";
+}
+@font-face {
+    src: url("../fonts/Lato-BoldItalic.ttf");
+    font-family: "Lato-BoldItalic";
+}
+@font-face {
+    src: url("../fonts/Broadway-Regular.ttf");
+    font-family: "Broadway Regular";
+}
+@font-face {
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-family: "OpenSans-Bold";
+}
+@font-face {
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    font-family: "OpenSans-Semibold";
+}
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans-Regular";
+}

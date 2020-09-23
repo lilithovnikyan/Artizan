@@ -1,0 +1,140 @@
+.modal-dialog {
+    max-width: 600px;
+}
+.modal-header, .modal-footer{
+  border: none
+}
+.modal-body {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 45px;
+  font-family: "Lato-Regular";
+}
+.modaleTitle {
+    font-family: "MOD20" !important;
+    font-size: 27px;
+   color: #022855;
+   margin-bottom: 50px
+}
+.modalInput{
+  width: 100%;
+  height: 60px;
+ border-radius: 10px;
+ box-shadow: 0px 11px 24px 0 rgba(0, 0, 0, 0.1);
+ background-color: #ffffff;
+ font-size: 18px;
+ color: #949292;
+ padding-left: 20px;
+ margin-bottom: 25px;
+ font-family: "Lato-Regular";
+}
+.chechboxBox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px
+}
+.chechboxBox input{
+  width: 13px;
+height: 13px;
+border: solid 1px #5e5e5e;
+background-color: #5e5e5e;
+}
+.chechboxBox p{
+  font-size: 14.5px;
+  color: #5e5e5e;
+  margin-left: 13px
+}
+.loginBtn{
+  font-size: 18px;
+font-weight: bold;
+color: #022855;
+width: 100%;
+height: 60px;
+border-radius: 10px;
+box-shadow: 0px 11px 24px 0 rgba(0, 0, 0, 0.1);
+background-color: #fedc51;
+}
+.signBtn{
+border: solid 2px #fedc51;
+background-color: #fff;
+margin: 30px 0
+}
+.forgetPassword{
+  font-size: 14.5px;
+color: #5e5e5e;
+text-align: right;
+margin: 20px 0 30px 0;
+display: block;
+}
+.dontHaveAnAccount{
+  font-size: 14.5px;
+color: #5e5e5e;
+text-decoration: underline;
+text-align: center;
+display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .forgetPassword {
+        text-align: center;
+    }
+  .modal-dialog {
+      max-width: 500px;
+  }
+  .modaleTitle {
+      font-size: 20px;
+     margin-bottom: 20px
+  }
+  .modalInput{
+    height: 40px;
+   font-size: 16px;
+   margin-bottom: 20px;
+  }
+  .chechboxBox{
+    margin-bottom: 30px
+  }
+  .chechboxBox input{
+    width: 13px;
+    height: 13px;
+  }
+  .chechboxBox p{
+    font-size: 14px;
+    margin-left: 13px
+  }
+  .loginBtn{
+  height: 40px;
+  }
+  .signBtn{
+    font-size: 16px;
+  margin: 20px 0
+  }
+  .forgetPassword{
+    font-size: 14px;
+  margin: 20px 0;
+  }
+  .dontHaveAnAccount{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .modal-dialog {
+        max-width: 300px;
+    }
+    .modal-open .modal {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal.show .modal-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-body {
+        padding: 0 10px;
+    }
+}
+
